@@ -12,6 +12,8 @@ angular.module('myApp.welcome-view', ['ngRoute'])
     });
 }])
 
-.controller('WelcomeCtrl', [function() {
-
+.controller('WelcomeCtrl', ['$scope', '$window', function($scope, $window) {
+    $scope.getStarted = function() {
+        $window.location.href = "/#!/input";
+    }
 }]);
