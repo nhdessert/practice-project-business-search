@@ -1,10 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <script src="node-modules/node_modules/angular/angular.js"></script>
+    <script src="node-modules/node_modules/@angular/router/angular1/angular_1_router.js"></script>
+    <script src="app.js"></script>
 </head>
 <body>
     <h1>First Commit</h1>
+    <p>Nothing here {{'yet' + '!'}}</p>
+
+    <ul class="menu">
+        <li><a href="#!/welcome">Welcome</a></li>
+        <li><a href="#!/input">Input</a></li>
+        <li><a href="#!/result">Result</a></li>
+        <li><a href="#!/map">Map</a></li>
+    </ul>
+    <div ng-view></div>
+
+
+    <script src="app/views/welcome-view/welcome-view.js"></script>
+    <script src="app/views/input-view/input-view.js"></script>
+    <script src="app/views/result-view/result-view.js"></script>
+    <script src="app/views/map-view/map-view.js"></script>
 </body>
 </html>
