@@ -12,6 +12,11 @@ angular.module('myApp.input-view', ['ngRoute'])
     });
 }])
 
-.controller('InputCtrl', [function() {
+.controller('InputCtrl',  ['$scope', function($scope) {
+    $scope.interest;
+    $scope.address;
 
+    $scope.submitInputForm = function(){
+        console.log('I am interested in ' + $scope.interest + ' and I live at ' + $scope.address );
+    }
 }]);

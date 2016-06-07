@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad273359-8330-45d4-8044-a8febb8edfd3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome-view/welcome-view.html" afterPath="$PROJECT_DIR$/app/views/welcome-view/welcome-view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome-view/welcome-view.js" afterPath="$PROJECT_DIR$/app/views/welcome-view/welcome-view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/input-view/input-view.html" afterPath="$PROJECT_DIR$/app/views/input-view/input-view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/input-view/input-view.js" afterPath="$PROJECT_DIR$/app/views/input-view/input-view.js" />
     </list>
     <ignored path="practice-project-business-search.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +50,8 @@
       <file leaf-file-name="input-view.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/input-view/input-view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="19" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -85,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome-view.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome-view.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome-view/welcome-view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25608343" vertical-offset="0" max-vertical-offset="863">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -107,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input-view.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="input-view.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/input-view/input-view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.20310633" vertical-offset="0" max-vertical-offset="837">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -120,8 +118,8 @@
       <file leaf-file-name="welcome-view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome-view/welcome-view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="187">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -155,14 +153,14 @@
         <option value="$PROJECT_DIR$/views/welcome-view/welcome-view.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/views/input-view/input-view.js" />
         <option value="$PROJECT_DIR$/app/views/map-view/map-view.js" />
         <option value="$PROJECT_DIR$/app/views/result-view/result-view.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/views/welcome-view/welcome-view.html" />
-        <option value="$PROJECT_DIR$/app/views/input-view/input-view.html" />
         <option value="$PROJECT_DIR$/app/views/welcome-view/welcome-view.js" />
+        <option value="$PROJECT_DIR$/app/views/input-view/input-view.js" />
+        <option value="$PROJECT_DIR$/app/views/input-view/input-view.html" />
       </list>
     </option>
   </component>
@@ -505,14 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome-view/welcome-view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="867">
@@ -529,31 +519,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/input-view/input-view.html">
+    <entry file="file://$PROJECT_DIR$/app/views/welcome-view/welcome-view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="837">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/input-view/input-view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome-view/welcome-view.js">
+    <entry file="file://$PROJECT_DIR$/app/views/welcome-view/welcome-view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25608343" vertical-offset="0" max-vertical-offset="863">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="187">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/input-view/input-view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20310633" vertical-offset="0" max-vertical-offset="837">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,1 +1,17 @@
-<p>This is the input partial view.</p>
+<div ng-controller="InputCtrl">
+    <form ng-submit="submitInputForm()">
+        <h2>What are you interested in?</h2>
+        <div>
+            <label>Search Term: </label>
+            <input type="text" name="interest" ng-model="interest">
+        </div>
+        <br>
+
+        <h2>Where are you located?</h2>
+        <div>
+            <label>Address: </label>
+            <input type="text" name="address" ng-model="address">
+        </div>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</div>
