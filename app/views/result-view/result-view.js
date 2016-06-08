@@ -12,6 +12,5 @@ angular.module('myApp.result-view', ['ngRoute'])
     });
 }])
 
-.controller('ResultCtrl', [function() {
-
+.controller('ResultCtrl', ['$scope', 'yelpService', function($scope, yelpService) {
 }]);

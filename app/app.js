@@ -7,6 +7,7 @@ angular.module('myApp', [
   'myApp.input-view',
   'myApp.result-view',
   'myApp.map-view',
+  'myApp.services',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {

@@ -12,11 +12,16 @@ angular.module('myApp.input-view', ['ngRoute'])
     });
 }])
 
-.controller('InputCtrl',  ['$scope', function($scope) {
+.controller('InputCtrl', ['$scope', '$http', '$window', 'yelpService', function($scope, $http, $window, yelpService) {
     $scope.interest;
     $scope.address;
 
     $scope.submitInputForm = function(){
-        console.log('I am interested in ' + $scope.interest + ' and I live at ' + $scope.address );
+        //Verify the input
+
+        //Make data request
+        yelpService.makeSearchGetCall($scope.interest, $scope.address).then(function(result){
+            $window.location.href = "/#!/result";
+        });
     }
 }]);
